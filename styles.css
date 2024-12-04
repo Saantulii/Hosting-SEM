@@ -1,0 +1,110 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Cabecera */
+header {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+/* Características */
+.features {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.features h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.features ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.features li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Planes */
+.plans {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.plan {
+    background-color: #fff;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    text-align: center;
+    max-width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.plan h3 {
+    margin: 0 0 1rem;
+}
+
+.plan .price {
+    font-size: 1.2rem;
+    color: #0073e6;
+}
+
+.plan button {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 1rem;
+}
+
+.plan button:hover {
+    background-color: #005bb5;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* Ocultar detalles inicialmente */
+.details {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+
+/* Mostrar detalles al expandirse */
+.details.active {
+    max-height: 700px; /* Ajustar según el contenido */
+    overflow: visible;
+}
+
+/* Opcional: estilos adicionales */
+.plan {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
