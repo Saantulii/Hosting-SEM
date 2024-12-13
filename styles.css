@@ -99,6 +99,7 @@ footer {
 .details.active {
     max-height: 700px; /* Ajustar según el contenido */
     overflow: visible;
+    cursor: pointer;
 }
 
 /* Opcional: estilos adicionales */
@@ -109,8 +110,6 @@ footer {
     border-radius: 5px;
 }
 
-
-
 .message {
     margin-top: 10px;
     padding: 10px;
@@ -119,4 +118,16 @@ footer {
     border-left: 4px solid #00796b;
     border-radius: 4px;
     display: none;
+}
+
+.texto-detalle{
+    margin-left: 30px;
+    color: red;
+    font-size: 15px;
+}
+
+.texto-detalle strong{
+    background-color: #005bb5;
+    color: white;
+    padding: 5px;
 }
